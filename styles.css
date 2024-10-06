@@ -1,0 +1,41 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+#navbar {
+    margin-left: -5px;
+    border-right: solid grey;
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#navbar li {
+    border-top: thin ridge grey;
+    height: 40px;
+}
+
+#main-doc {
+    margin-left: 525px;
+    margin-top: -8px;
+}
+
+@media  (max-width: 1024px) {
+    #main-doc {
+        position: static;
+    }
+}
